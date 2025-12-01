@@ -35,16 +35,19 @@ minima:
   skin: auto
 
   nav_pages:
-    - blogs.md
-    - notes.md
     - project.md
     - research.md
+    - blogs.md
+    - notes.md
+    
 
 
   show_excerpts: false
 
 
   date_format: "%b-%d-%Y"
+
+
 
 
   social_links:
