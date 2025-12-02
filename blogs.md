@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: default
+collection: blogs
 title: Blogs
 permalink: /blogs/
 ---
