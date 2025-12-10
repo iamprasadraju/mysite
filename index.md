@@ -4,6 +4,9 @@ title: "Prasad Raju G"
 ---
 
 {% capture intro %}
+
+**Building things that work.**
+
 I am **Prasad Raju**, a Machine Learning & Deep Learning practitioner who turns ideas into impactful products that make a difference in society.
 
 My curiosity spans across science and technology — from Computer Science and Mathematics to Physics, Chemistry, and Biology — all driven by one fundamental question: **“How does the Universe work?”**
@@ -42,4 +45,3 @@ My curiosity spans across science and technology — from Computer Science and M
 
 <br>
 
-**Building things that work.**
