@@ -27,7 +27,7 @@ minima:
   #   * solarized-light    Light variant of solarized color scheme.
   #   * solarized-dark     Dark variant of solarized color scheme.
   #   * solarized          Adaptive skin for solarized color scheme skins.
-  skin: dark
+  skin: classic
   
   nav_pages:
     - project.md
