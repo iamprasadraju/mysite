@@ -28,20 +28,54 @@ My curiosity spans across science and technology — from Computer Science and M
 
 <h2 style="padding: 10px;">Skills</h2>
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;padding: 5px;">
-  <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">Python</span>
-  <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">C++</span>
-  <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">C</span>
-  <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">Math</span>
-  <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">Machine Learning</span>
-  <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">Deep Learning</span>
-  <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">API</span>
-  <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">Testing</span>
-  <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">Performance Engineering</span>
-  <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">Optimization</span>
-  <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">Computer Vision</span>
-  <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">Research</span>
+<style>
+  :root {
+    --tag-bg: #f0f0f0;
+    --tag-border: #d0d0d0;
+    --tag-text: #111;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --tag-bg: #1f1f1f;
+      --tag-border: #333;
+      --tag-text: #eaeaea;
+    }
+  }
+
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5px;
+  }
+
+  .skill-tag {
+    background-color: var(--tag-bg);
+    color: var(--tag-text);
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    border: 1px solid var(--tag-border);
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+</style>
+
+<div class="skill-tags">
+  <span class="skill-tag">Python</span>
+  <span class="skill-tag">C++</span>
+  <span class="skill-tag">C</span>
+  <span class="skill-tag">Math</span>
+  <span class="skill-tag">Machine Learning</span>
+  <span class="skill-tag">Deep Learning</span>
+  <span class="skill-tag">API</span>
+  <span class="skill-tag">Testing</span>
+  <span class="skill-tag">Performance Engineering</span>
+  <span class="skill-tag">Optimization</span>
+  <span class="skill-tag">Computer Vision</span>
+  <span class="skill-tag">Research</span>
 </div>
+
 
 <br>
 
