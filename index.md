@@ -28,7 +28,7 @@ My curiosity spans across science and technology — from Computer Science and M
 
 <h2 style="padding: 10px;">Skills</h2>
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;padding: 5px;">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; padding: 5px;">
   <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">Python</span>
   <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">C++</span>
   <span style="background-color: #f0f0f0; padding: 5px 10px; border-radius: 15px; font-size: 0.9em; border: 1px solid #ddd;">C</span>
@@ -45,8 +45,39 @@ My curiosity spans across science and technology — from Computer Science and M
 
 <br>
 
-
+<div align="center">
+	<img src="https://ghchart.rshah.org/iamprasadraju" alt="GitHub contribution graph">
+</div>
+---
 
 <div align="center">
-	<img src="https://ghchart.rshah.org/iamprasadraju" alt="github contribution graph">
+    <span style="background-color: yellow; display: inline-block; margin-bottom: 10px;font-style: italic;">
+        The light that found me in the night I was lost.
+    </span>
+    <strong>@GeorgeHotz</strong>
+
+<div style="margin-top: 30px; max-width: 900px; margin-left: auto; margin-right: auto;">
+    <div style="
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%; /* 16:9 aspect ratio */
+    ">
+        <iframe
+            src="https://www.youtube.com/embed/tvJ1RGlxe8Q?si=jQxOkgCpLdX7LMpj"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            ">
+        </iframe>
+    </div>
+</div>
+
 </div>
