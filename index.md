@@ -7,7 +7,8 @@ title: "Prasad Raju G"
 
 **Building things that work.**
 
-I am **Prasad Raju**, a Machine Learning & Deep Learning practitioner who turns ideas into impactful products that make a difference in society.
+
+I am **Prasad Raju**, a Machine Learning and Deep Learning practitioner focused on turning ideas into meaningful products with real-world impact.
 
 My curiosity spans across science and technology — from Computer Science and Mathematics to Physics, Chemistry, and Biology — all driven by one fundamental question: **“How does the Universe work?”**
 {% endcapture %}
@@ -46,7 +47,7 @@ My curiosity spans across science and technology — from Computer Science and M
 <br>
 
 <div align="center">
-	<img src="https://ghchart.rshah.org/iamprasadraju" alt="GitHub contribution graph">
+	<a href="https://github.com/iamprasadraju"> <img src="https://ghchart.rshah.org/iamprasadraju" alt="GitHub contribution graph"></a>
 </div>
 ---
 
