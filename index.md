@@ -80,5 +80,18 @@ My curiosity spans across science and technology — from Computer Science and M
         </iframe>
     </div>
 </div>
+<br>
+<br>
+<br>
+
+<p>Special thanks to: </p>
+<b>Prof. David J Malan </b><br>
+<b>Prof. Brain yu </b><br>
+<b>Prof. Andrew ng</b><br>
+<b>Prof. Jeremy Howard</b><br>
+<b>Prof. Gilbert Strang</b><br>
+<b>Prof. Chris Piech</b><br>
+<b>Prof. Gary Gensler</b><br>
+<b>Prof. Allan Adams</b><br>
 
 </div>
