@@ -16,7 +16,8 @@
     if (!searchInput || !searchResults || !searchOverlay) return;
 
     // Load search data
-    fetch('/search.json')
+    const baseurl = window.site_baseurl || '';
+    fetch(`${baseurl}/search.json`)
       .then(response => response.json())
       .then(data => {
         // Filter out empty objects

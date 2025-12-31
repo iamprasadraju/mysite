@@ -11,6 +11,9 @@
 
   {%- include custom-head.html -%}
 
+  <script>
+    window.site_baseurl = "{{ site.baseurl }}";
+  </script>
   <script defer src="{{ '/assets/js/search.js' | relative_url }}"></script>
 
 </head>
