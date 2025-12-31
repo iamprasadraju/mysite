@@ -1,0 +1,56 @@
+---
+layout: null
+---
+[
+{% for post in site.posts %}
+  {
+    "title": {{ post.title | jsonify }},
+    "url": {{ post.url | relative_url | jsonify }},
+    "date": {{ post.date | date: "%b %d, %Y" | jsonify }},
+    "categories": {{ post.categories | join: ", " | jsonify }},
+    "excerpt": {{ post.excerpt | strip_html | strip_newlines | truncatewords: 30 | jsonify }},
+    "type": "post"
+  },
+{% endfor %}
+{% for note in site.notes %}
+  {
+    "title": {{ note.title | jsonify }},
+    "url": {{ note.url | relative_url | jsonify }},
+    "date": {{ note.date | date: "%b %d, %Y" | jsonify }},
+    "categories": {{ note.categories | join: ", " | jsonify }},
+    "excerpt": {{ note.excerpt | strip_html | strip_newlines | truncatewords: 30 | jsonify }},
+    "type": "note"
+  },
+{% endfor %}
+{% for blog in site.blogs %}
+  {
+    "title": {{ blog.title | jsonify }},
+    "url": {{ blog.url | relative_url | jsonify }},
+    "date": {{ blog.date | date: "%b %d, %Y" | jsonify }},
+    "categories": {{ blog.categories | join: ", " | jsonify }},
+    "excerpt": {{ blog.excerpt | strip_html | strip_newlines | truncatewords: 30 | jsonify }},
+    "type": "blog"
+  },
+{% endfor %}
+{% for project in site.projects %}
+  {
+    "title": {{ project.title | jsonify }},
+    "url": {{ project.url | relative_url | jsonify }},
+    "date": {{ project.date | date: "%b %d, %Y" | jsonify }},
+    "categories": {{ project.categories | join: ", " | jsonify }},
+    "excerpt": {{ project.excerpt | strip_html | strip_newlines | truncatewords: 30 | jsonify }},
+    "type": "project"
+  },
+{% endfor %}
+{% for research in site.research %}
+  {
+    "title": {{ research.title | jsonify }},
+    "url": {{ research.url | relative_url | jsonify }},
+    "date": {{ research.date | date: "%b %d, %Y" | jsonify }},
+    "categories": {{ research.categories | join: ", " | jsonify }},
+    "excerpt": {{ research.excerpt | strip_html | strip_newlines | truncatewords: 30 | jsonify }},
+    "type": "research"
+  },
+{% endfor %}
+  {}
+]
