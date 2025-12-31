@@ -5,6 +5,7 @@
     {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
     {%- assign page_titles = site.pages | map: 'title' | compact %}
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    {% include search.html %}
 
     {%- unless page_titles == empty %}
     <nav class="site-nav">
@@ -14,7 +15,6 @@
       </label>
 
       {% include nav-items.html paths = page_paths %}
-      {% include search.html %}
     </nav>
     {%- endunless %}
   </div>
