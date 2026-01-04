@@ -16,7 +16,7 @@ My curiosity spans across science and technology — from Computer Science and M
 <div style="display:flex; align-items:flex-start; gap:20px; flex-wrap:wrap;">
 
   <div style="flex:0 0 160px; text-align:left;">
-    <img src="https://avatars.githubusercontent.com/u/110875489?v=4" alt="Prasad Raju"
+    <img src="assets/iamprasadraju.jpg" alt="Prasad Raju"
          style="width:160px; height:160px; border-radius:50%; object-fit:cover; border:2px solid #e6e6e6; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   </div>
 
