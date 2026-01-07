@@ -72,19 +72,6 @@ ___
 
 Then check **git status**
 
-<blockquote>
-    On branch main
-
-    No commits yet
-
-    Untracked files:
-    (use "git add <file>..." to include in what will be committed)
-
-   	guacamole.md
-
-    nothing added to commit but untracked files present (use "git add" to track)
-</blockquote>
-
 ___
 
 ### 5. Writing commit messages
@@ -294,3 +281,7 @@ We can check that the command has worked by running ```git remote -v```:
 <blockquote>
     You may see a `-u` option used with `git push` in some documentation. This option is synonymous with the `--set-upstream-to` option for the `git branch` command, and is used to associate the current branch with a remote branch so that the `git pull`command can be used without any arguments. To do this, simply use `git push -u origin main` once the remote has been set up.
 </blockquote>
+
+
+updated on: 04/01/2026
+
